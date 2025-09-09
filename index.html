@@ -6,42 +6,80 @@
     <title>Landwind</title>
     <!-- CSS LINKS  -->
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="style.css" />
     <!-- FONTS -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Story+Script&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"
       rel="stylesheet"
     />
   </head>
   <body class="min-h-screen font-inter">
-    <header>
+    <!-- Navbar Section -->
+    <header class="max-w-[2100px] m-auto font-medium">
       <div id="container" class="flex justify-between items-center my-6 mx-16">
-        <div id="navbar_&_logo" class="flex gap-4">
-          <div id="logo-image">
-            <img src="images/logo.svg" alt="Landwind" />
-          </div>
-          <div id="navbar" class="flex gap-4 items-center">
-            <a href="#">Company</a>
-            <a href="#">Marketplace</a>
-            <a href="#">Features</a>
-            <a href="#">Team</a>
-            <a href="#">Contact</a>
-          </div>
+        <div id="logo-image">
+          <img src="images/logo.svg" alt="Landwind" />
+        </div>
+        <div id="navbar" class="flex gap-10 items-center">
+          <a href="#">Company</a>
+          <a href="#">Marketplace</a>
+          <a href="#">Features</a>
+          <a href="#">Team</a>
+          <a href="#">Contact</a>
         </div>
         <div id="login_signup" class="space-x-4">
           <a id="login" href="#">Log in</a>
           <a
             id="get_started"
             href="#"
-            class="bg-[#7E3AF2] text-white p-2 rounded-lg"
+            class="bg-[#7E3AF2] text-white p-3 rounded-lg"
             >Get started</a
           >
         </div>
       </div>
     </header>
-    <section id="hero"></section>
-    <section id="partner"></section>
+
+    <!-- Hero Section -->
+    <section id="hero" class="max-w-[2100px] m-auto">
+      <div id="container" class="min-h-[100vh] my-6 mx-16">
+        <div id="content" class="grid grid-cols-[1fr_1fr]">
+          <div id="left" class="flex items-center">
+            <div id="text">
+              <h1 class="text-7xl font-black text-[#111928] mb-6">
+                Building digital<br />products & brands.
+              </h1>
+              <p class="text-2xl font-normal text-[#6B7280] leading-[150%]">
+                Here at flowbite we focus on markets where technology,
+                innovation, and<br />capital can unlock long-term value and
+                drive economic growth.
+              </p>
+              <div id="buttons" class="flex gap-4 mt-6">
+                <a
+                  href="#"
+                  class="bg-[#7E3AF2] font-medium text-white p-3 rounded-lg"
+                >
+                  Start 30 day free trial
+                </a>
+                <a
+                  href="#"
+                  class="border-[1px] font-medium border-[#E5E7EB] p-3 rounded-lg"
+                >
+                  Pricing & FAQ
+                </a>
+              </div>
+            </div>
+          </div>
+          <div id="right">
+            <div id="image">
+              <img src="images/big_logo.png" alt="Market Strategy" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Partners Section -->
+    <section id="partners"></section>
     <section id="tools"></section>
     <section id="about"></section>
     <section id="comment"></section>
