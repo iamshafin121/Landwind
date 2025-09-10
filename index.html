@@ -16,7 +16,7 @@
   <body class="min-h-screen font-inter">
     <!-- Navbar Section -->
     <header class="max-w-[2100px] m-auto font-medium">
-      <div id="container" class="flex justify-between items-center my-6 mx-16">
+      <div id="container" class="flex justify-between items-center py-6 mx-16">
         <div id="logo-image">
           <img src="images/logo.svg" alt="Landwind" />
         </div>
@@ -41,7 +41,7 @@
 
     <!-- Hero Section -->
     <section id="hero" class="max-w-[2100px] m-auto">
-      <div id="container" class="my-32 mx-16">
+      <div id="container" class="py-24 mx-16">
         <div id="content" class="grid grid-cols-[1fr_1fr]">
           <div id="left" class="flex items-center">
             <div id="text">
@@ -80,18 +80,50 @@
 
     <!-- Partners & Sponsors Section -->
     <section id="partners_&_sponsors" class="max-w-[2100px] m-auto">
-      <div id="container" class="my-32 mx-16 pb-[96px]">
-        <img
-          class="w-[1850px] m-auto"
-          src="images/partners.svg"
-          alt="Partners & Sponsors"
-        />
+      <div id="container" class="py-32 mx-16 pb-[96px]">
+        <!--   <img -->
+        <!--     class="w-[1850px] m-auto" -->
+        <!--     src="images/partners.svg" -->
+        <!--     alt="Partners & Sponsors" -->
+        <!--   /> -->
+        <div id="content" class="grid grid-cols-6">
+          <img
+            src="images/google.svg"
+            class="justify-self-center h-12 w-auto"
+            alt="google"
+          />
+          <img
+            src="images/microsoft.svg"
+            class="justify-self-center h-12 w-auto"
+            alt="microsoft"
+          />
+          <img
+            src="images/spotify.svg"
+            class="justify-self-center h-12 w-auto"
+            alt="spotify"
+          />
+          <img
+            src="images/mailchimp.svg"
+            class="justify-self-center h-12 w-auto"
+            alt="mailchimp"
+          />
+          <img
+            src="images/airbnb.svg"
+            class="justify-self-center h-12 w-auto"
+            alt="airbnb"
+          />
+          <img
+            src="images/uber.svg"
+            class="justify-self-center h-12 w-auto"
+            alt="uber"
+          />
+        </div>
       </div>
     </section>
 
     <!-- Features Section -->
-    <section id="features" class="max-w-[2100px] m-auto">
-      <div id="container" class="my-32 mx-16">
+    <section id="features" class="max-w-[2100px] m-auto bg-[#F9FAFB]">
+      <div id="container" class="py-32 mx-16">
         <div id="content" class="flex flex-col gap-32">
           <div
             id="upper-block"
@@ -272,7 +304,7 @@
 
     <!-- Social_proof Section -->
     <section id="social_proof" class="max-w-[2100px] m-auto">
-      <div id="container" class="my-32 mx-16">
+      <div id="container" class="py-32 mx-16">
         <div id="content" class="grid grid-cols-[1fr_1fr] items-center gap-32">
           <div id="left_container">
             <div id="Text">
@@ -371,8 +403,8 @@
     </section>
 
     <!-- Testimonials Section -->
-    <section id="testimonials" class="max-w-[2100px] m-auto">
-      <div id="container" class="my-32 mx-16 flex justify-center items-center">
+    <section id="testimonials" class="max-w-[2100px] m-auto bg-[#F9FAFB]">
+      <div id="container" class="py-32 mx-16 flex justify-center items-center">
         <div id="testimonial" class="flex flex-col items-center max-w-[1024px]">
           <div id="icon">
             <img src="images/quotetion.svg" class="h-24 w-24" alt="comment" />
@@ -405,7 +437,316 @@
     </section>
 
     <!-- Pricing Section -->
-    <section id="pricing"></section>
+    <section id="pricing" class="max-w-[2100px] m-auto">
+      <div id="container" class="py-32 mx-16">
+        <div id="content">
+          <div id="heading-&-desc" class="text-center">
+            <h2
+              class="font-extrabold text-5xl text-[#111928] leading-[125%] mb-6"
+            >
+              Pay as you grow
+            </h2>
+            <p
+              class="text-[27px] font-normal text-[#6B7280] leading-[150%] mb-16"
+            >
+              Here at flowbite we focus on markets where technology, innovation,
+              and capital<br />can unlock long-term value and drive economic
+              growth.
+            </p>
+          </div>
+          <div
+            id="pricing-cards"
+            class="flex justify-center items-center gap-12"
+          >
+            <div
+              id="pricing-plan"
+              class="w-[500px] p-12 border-[2px] border-[#E5E7EB] rounded-2xl"
+            >
+              <div id="card-header" class="text-center">
+                <h3
+                  class="font-semibold text-4xl text-[#111928] leading-[125%] mb-6"
+                >
+                  Starter
+                </h3>
+                <p
+                  class="text-[24px] font-normal text-[#6B7280] leading-[150%]"
+                >
+                  Great for personal use and for your side projects.
+                </p>
+              </div>
+              <div id="price" class="text-center">
+                <h3
+                  class="font-extrabold text-6xl text-[#111928] leading-[125%] my-8"
+                >
+                  $49
+                  <sub
+                    class="text-[24px] font-normal text-[#6B7280] leading-[150%] mb-12 self-end"
+                  >
+                    /month
+                  </sub>
+                </h3>
+              </div>
+              <div id="list">
+                <div id="item" class="flex gap-2 my-6">
+                  <img
+                    src="images/check.png"
+                    class="mr-4 h-8 w-8"
+                    alt="check"
+                  />
+                  <span
+                    class="text-xl font-normal text-[#111928] leading-[150%]"
+                    >Individual configuration</span
+                  >
+                </div>
+                <div id="item" class="flex gap-2 my-6">
+                  <img
+                    src="images/check.png"
+                    class="mr-4 h-8 w-8"
+                    alt="check"
+                  />
+                  <span
+                    class="text-xl font-normal text-[#111928] leading-[150%]"
+                    >No setup, monthly, or hidden fees</span
+                  >
+                </div>
+                <div id="item" class="flex gap-2 my-6">
+                  <img
+                    src="images/check.png"
+                    class="mr-4 h-8 w-8"
+                    alt="check"
+                  />
+                  <span
+                    class="text-xl font-normal text-[#111928] leading-[150%]"
+                    >Team size:
+                    <span class="font-semibold">1 developer</span></span
+                  >
+                </div>
+                <div id="item" class="flex gap-2 my-6">
+                  <img
+                    src="images/check.png"
+                    class="mr-4 h-8 w-8"
+                    alt="check"
+                  />
+                  <span
+                    class="text-xl font-normal text-[#111928] leading-[150%]"
+                    >Premium support:
+                    <span class="font-semibold">6 months</span></span
+                  >
+                </div>
+                <div id="item" class="flex gap-2 my-6">
+                  <img
+                    src="images/check.png"
+                    class="mr-4 h-8 w-8"
+                    alt="check"
+                  />
+                  <span
+                    class="text-xl font-normal text-[#111928] leading-[150%]"
+                    >Free updates:
+                    <span class="font-semibold">6 months</span></span
+                  >
+                </div>
+              </div>
+              <div
+                id="button"
+                class="w-[100%] bg-[#7E3AF2] text-white text-2xl text-center mt-12 p-3 rounded-xl"
+              >
+                <a href="#">Get started</a>
+              </div>
+            </div>
+            <div
+              id="pricing-plan"
+              class="w-[500px] p-12 border-[2px] border-[#E5E7EB] rounded-2xl"
+            >
+              <div id="card-header" class="text-center">
+                <h3
+                  class="font-semibold text-4xl text-[#111928] leading-[125%] mb-6"
+                >
+                  Company
+                </h3>
+                <p
+                  class="text-[24px] font-normal text-[#6B7280] leading-[150%]"
+                >
+                  Best for large scale uses and extended redistribution rights.
+                </p>
+              </div>
+              <div id="price" class="text-center">
+                <h3
+                  class="font-extrabold text-6xl text-[#111928] leading-[125%] my-8"
+                >
+                  $99
+                  <sub
+                    class="text-[24px] font-normal text-[#6B7280] leading-[150%] mb-12 self-end"
+                  >
+                    /month
+                  </sub>
+                </h3>
+              </div>
+              <div id="list">
+                <div id="item" class="flex gap-2 my-6">
+                  <img
+                    src="images/check.png"
+                    class="mr-4 h-8 w-8"
+                    alt="check"
+                  />
+                  <span
+                    class="text-xl font-normal text-[#111928] leading-[150%]"
+                    >Individual configuration</span
+                  >
+                </div>
+                <div id="item" class="flex gap-2 my-6">
+                  <img
+                    src="images/check.png"
+                    class="mr-4 h-8 w-8"
+                    alt="check"
+                  />
+                  <span
+                    class="text-xl font-normal text-[#111928] leading-[150%]"
+                    >No setup, monthly, or hidden fees</span
+                  >
+                </div>
+                <div id="item" class="flex gap-2 my-6">
+                  <img
+                    src="images/check.png"
+                    class="mr-4 h-8 w-8"
+                    alt="check"
+                  />
+                  <span
+                    class="text-xl font-normal text-[#111928] leading-[150%]"
+                    >Team size:
+                    <span class="font-semibold">10 developer</span></span
+                  >
+                </div>
+                <div id="item" class="flex gap-2 my-6">
+                  <img
+                    src="images/check.png"
+                    class="mr-4 h-8 w-8"
+                    alt="check"
+                  />
+                  <span
+                    class="text-xl font-normal text-[#111928] leading-[150%]"
+                    >Premium support:
+                    <span class="font-semibold">24 months</span></span
+                  >
+                </div>
+                <div id="item" class="flex gap-2 my-6">
+                  <img
+                    src="images/check.png"
+                    class="mr-4 h-8 w-8"
+                    alt="check"
+                  />
+                  <span
+                    class="text-xl font-normal text-[#111928] leading-[150%]"
+                    >Free updates:
+                    <span class="font-semibold">24 months</span></span
+                  >
+                </div>
+              </div>
+              <div
+                id="button"
+                class="w-[100%] bg-[#7E3AF2] text-white text-2xl text-center mt-12 p-3 rounded-xl"
+              >
+                <a href="#">Get started</a>
+              </div>
+            </div>
+            <div
+              id="pricing-plan"
+              class="w-[500px] p-12 border-[2px] border-[#E5E7EB] rounded-2xl"
+            >
+              <div id="card-header" class="text-center">
+                <h3
+                  class="font-semibold text-4xl text-[#111928] leading-[125%] mb-6"
+                >
+                  Enterprise
+                </h3>
+                <p
+                  class="text-[24px] font-normal text-[#6B7280] leading-[150%]"
+                >
+                  Best for large scale uses and extended redistribution rights.
+                </p>
+              </div>
+              <div id="price" class="text-center">
+                <h3
+                  class="font-extrabold text-6xl text-[#111928] leading-[125%] my-8"
+                >
+                  $499
+                  <sub
+                    class="text-[24px] font-normal text-[#6B7280] leading-[150%] mb-12 self-end"
+                  >
+                    /month
+                  </sub>
+                </h3>
+              </div>
+              <div id="list">
+                <div id="item" class="flex gap-2 my-6">
+                  <img
+                    src="images/check.png"
+                    class="mr-4 h-8 w-8"
+                    alt="check"
+                  />
+                  <span
+                    class="text-xl font-normal text-[#111928] leading-[150%]"
+                    >Individual configuration</span
+                  >
+                </div>
+                <div id="item" class="flex gap-2 my-6">
+                  <img
+                    src="images/check.png"
+                    class="mr-4 h-8 w-8"
+                    alt="check"
+                  />
+                  <span
+                    class="text-xl font-normal text-[#111928] leading-[150%]"
+                    >No setup, monthly, or hidden fees</span
+                  >
+                </div>
+                <div id="item" class="flex gap-2 my-6">
+                  <img
+                    src="images/check.png"
+                    class="mr-4 h-8 w-8"
+                    alt="check"
+                  />
+                  <span
+                    class="text-xl font-normal text-[#111928] leading-[150%]"
+                    >Team size:
+                    <span class="font-semibold">100+ developer</span></span
+                  >
+                </div>
+                <div id="item" class="flex gap-2 my-6">
+                  <img
+                    src="images/check.png"
+                    class="mr-4 h-8 w-8"
+                    alt="check"
+                  />
+                  <span
+                    class="text-xl font-normal text-[#111928] leading-[150%]"
+                    >Premium support:
+                    <span class="font-semibold">36 months</span></span
+                  >
+                </div>
+                <div id="item" class="flex gap-2 my-6">
+                  <img
+                    src="images/check.png"
+                    class="mr-4 h-8 w-8"
+                    alt="check"
+                  />
+                  <span
+                    class="text-xl font-normal text-[#111928] leading-[150%]"
+                    >Free updates:
+                    <span class="font-semibold">36 months</span></span
+                  >
+                </div>
+              </div>
+              <div
+                id="button"
+                class="w-[100%] bg-[#7E3AF2] text-white text-2xl text-center mt-12 p-3 rounded-xl"
+              >
+                <a href="#">Get started</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
     <!-- CTA Section -->
     <section id="cta"></section>
